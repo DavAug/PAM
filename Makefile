@@ -1,6 +1,6 @@
 # Makefile for paper (figures and data)
 .PHONY: all clean
-all: in_vitro_study
+all: in_vitro_study in_silico_study
 
 # In vitro study
 in_vitro_study: format_data infer_K_model infer_KP_model infer_KR_model plot_results
@@ -14,6 +14,12 @@ infer_KP_model: results/in_vitro_study/infer_KP_model.ipynb
 infer_KR_model: results/in_vitro_study/infer_KR_model.ipynb
 	jupyter nbconvert --to notebook --inplace --ExecutePreprocessor.timeout=1000 --execute $<
 plot_results: results/in_vitro_study/plot_results.ipynb
+	jupyter nbconvert --to notebook --inplace --execute $<
+
+# In silico study
+in_silico_study: synthesise_data
+
+synthesise_data: results/in_silico_study/synthesise_data.ipynb
 	jupyter nbconvert --to notebook --inplace --execute $<
 
 # Delete figures and derived data
