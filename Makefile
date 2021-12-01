@@ -17,10 +17,16 @@ plot_results: results/in_vitro_study/plot_results.ipynb
 	jupyter nbconvert --to notebook --inplace --execute $<
 
 # In silico study
-in_silico_study: synthesise_data infer_K_model_after_30h
+in_silico_study: synthesise_data infer_K_model_after_10h infer_K_model_after_15h infer_K_model_after_20h infer_K_model_after_30h
 
 synthesise_data: results/in_silico_study/synthesise_data.ipynb
 	jupyter nbconvert --to notebook --inplace --execute $<
+infer_K_model_after_10h: results/in_silico_study/infer_K_model_after_10h.ipynb
+	jupyter nbconvert --to notebook --inplace --ExecutePreprocessor.timeout=10000 --execute $<
+infer_K_model_after_15h: results/in_silico_study/infer_K_model_after_15h.ipynb
+	jupyter nbconvert --to notebook --inplace --ExecutePreprocessor.timeout=10000 --execute $<
+infer_K_model_after_20h: results/in_silico_study/infer_K_model_after_20h.ipynb
+	jupyter nbconvert --to notebook --inplace --ExecutePreprocessor.timeout=10000 --execute $<
 infer_K_model_after_30h: results/in_silico_study/infer_K_model_after_30h.ipynb
 	jupyter nbconvert --to notebook --inplace --ExecutePreprocessor.timeout=10000 --execute $<
 
