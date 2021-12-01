@@ -17,10 +17,12 @@ plot_results: results/in_vitro_study/plot_results.ipynb
 	jupyter nbconvert --to notebook --inplace --execute $<
 
 # In silico study
-in_silico_study: synthesise_data
+in_silico_study: synthesise_data infer_K_model_after_30h
 
 synthesise_data: results/in_silico_study/synthesise_data.ipynb
 	jupyter nbconvert --to notebook --inplace --execute $<
+infer_K_model_after_30h: results/in_silico_study/infer_K_model_after_30h.ipynb
+	jupyter nbconvert --to notebook --inplace --ExecutePreprocessor.timeout=10000 --execute $<
 
 # Delete figures and derived data
 clean: clean_figures
