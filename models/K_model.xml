@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
-  <model id="K_model" timeUnits="hour">
+  <model id="antibiotic_linear_growth_hill_killing_model" timeUnits="hour">
 
     <listOfUnitDefinitions>
       <unitDefinition id="cfu_per_ml">
@@ -25,13 +25,6 @@
           <unit kind="gram" exponent="1" scale="-3" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="liter_per_mg_hour">
-        <listOfUnits>
-          <unit kind="liter" exponent="1" scale="0" multiplier="1"/>
-          <unit kind="gram" exponent="-1" scale="-3" multiplier="1"/>
-          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
-        </listOfUnits>
-      </unitDefinition>
       <unitDefinition id="per_hour">
         <listOfUnits>
           <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
@@ -48,17 +41,12 @@
     </listOfSpecies>
 
     <listOfParameters>
-      <parameter id="total_bacterial_count" value="1" constant="false" units="cfu_per_ml"/>
-      <parameter id="bacterial_count_1" value="1" constant="false" units="cfu_per_ml"/>
-      <parameter id="bacterial_count_2" value="1" constant="false" units="cfu_per_ml"/>
+      <parameter id="bacterial_count" value="1" constant="false" units="cfu_per_ml"/>
       <parameter id="concentration_e50" value="1" constant="true" units="mg_per_liter"/>
-      <parameter id="death_rate" value="1" constant="true" units="per_hour"/>
       <parameter id="elimination_rate" value="1" constant="true" units="per_hour"/>
       <parameter id="gamma" value="1" constant="true" units="dimensionless"/>
       <parameter id="growth_rate" value="1" constant="true" units="per_hour"/>
       <parameter id="kappa" value="1" constant="true" units="per_hour"/>
-      <parameter id="transition_rate_12" value="1" constant="true" units="liter_per_mg_hour"/>
-      <parameter id="transition_rate_21" value="1" constant="true" units="per_hour"/>
     </listOfParameters>
 
     <listOfReactions>
@@ -80,89 +68,40 @@
     </listOfReactions>
 
     <listOfRules>
-      <assignmentRule variable="total_bacterial_count">
+      <rateRule variable="bacterial_count">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
-            <plus/>
-            <ci> bacterial_count_1 </ci>
-            <ci> bacterial_count_2 </ci>
-          </apply>
-        </math>
-      </assignmentRule>
-
-      <rateRule variable="bacterial_count_1">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
+            <times/>
             <apply>
-              <times/>
+              <minus/>
+              <ci> growth_rate </ci>
               <apply>
-                <minus/>
-                <ci> growth_rate </ci>
+                <times/>
+                <ci> kappa </ci>
                 <apply>
-                  <plus/>
+                  <divide/>
                   <apply>
-                    <times/>
-                    <ci> transition_rate_21 </ci>
+                    <power/>
                     <ci> drug </ci>
+                    <ci> gamma </ci>
                   </apply>
                   <apply>
-                    <times/>
-                    <ci> kappa </ci>
+                    <plus/>
                     <apply>
-                      <divide/>
-                      <apply>
-                        <power/>
-                        <ci> drug </ci>
-                        <ci> gamma </ci>
-                      </apply>
-                      <apply>
-                        <plus/>
-                        <apply>
-                          <power/>
-                          <ci> drug </ci>
-                          <ci> gamma </ci>
-                        </apply>
-                        <apply>
-                          <power/>
-                          <ci> concentration_e50 </ci>
-                          <ci> gamma </ci>
-                        </apply>
-                      </apply>
+                      <power/>
+                      <ci> drug </ci>
+                      <ci> gamma </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <ci> concentration_e50 </ci>
+                      <ci> gamma </ci>
                     </apply>
                   </apply>
                 </apply>
               </apply>
-              <ci> bacterial_count_1 </ci>
             </apply>
-            <apply>
-              <times/>
-              <ci> transition_rate_12 </ci>
-              <ci> bacterial_count_2 </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-
-      <rateRule variable="bacterial_count_2">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <minus/>
-            <apply>
-              <times/>
-              <ci> drug </ci>
-              <ci> transition_rate_21 </ci>
-              <ci> bacterial_count_1 </ci>
-            </apply>
-            <apply>
-              <times/>
-              <apply>
-                <plus/>
-                <ci> death_rate </ci>
-                <ci> transition_rate_12 </ci>
-              </apply>
-              <ci> bacterial_count_2 </ci>
-            </apply>
+            <ci> bacterial_count </ci>
           </apply>
         </math>
       </rateRule>
