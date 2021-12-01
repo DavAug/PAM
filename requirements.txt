@@ -1,5 +1,6 @@
 git+git://github.com/DavAug/chi.git#egg=chi-latest
 git+git://github.com/pints-team/pints.git#egg=pints-latest
+myokit>=1.33
 numpy>=1.17
 pandas>=0.24
 plotly>=4.8.1
