@@ -19,4 +19,6 @@ plot_results: results/in_vitro_study/plot_results.ipynb
 # Delete figures and derived data
 clean: clean_figures
 clean_figures:
-	rm -f $(PWD)/results/in_vitro_study/test.pdf
+	rm -f $(PWD)/results/in_vitro_study/in_vitro_data.pdf
+	rm -f $(PWD)/results/in_vitro_study/model_weights_in_vitro_study.pdf
+	rm -f $(PWD)/results/in_vitro_study/MLE_predictions.pdf
