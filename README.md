@@ -33,11 +33,19 @@ The results are documented by multiple notebooks, which contain interactive figu
 
 ## Reproduce results
 
-In order to make our results reproducible, we prepared a `Makefile`, which
-calls Python scripts in the `results` directory. Before we can run those
-Python scripts, we need to make sure that all dependencies are installed.
+We prepaired two ways to reproduce our results.
 
-### 1. Install dependencies
+### The easy way (no programming knowledge required)
+
+You are welcome to rerun our scripts by clicking on the binder icon in the top right, once you opened the notebook links above. By clicking on the notebook links,
+nbviewer opens the notebooks and provides a link to binder in the top right corner of the website (binder has an icon with three circles). By clicking on the binder
+icon, a server is started for you and all dependencies for our scripts are installed automatically (this may take a couple seconds). Once this is done you can run our scripts in the browser to reproduce the results.
+
+### The more flexible way (requires some knowledge of programming)
+
+Alternatively, the GitHub repository can be cloned, and the scripts executed locally. For ease of execution, we prepared a `Makefile` that executes the scripts in the correct order. Please find a step-by-step instruction below, once you have cloned the repostory and moved with your bash console into the repository.
+
+#### 1. Install dependencies
 
 - (optional) Create a virtual environment and activate it
 
@@ -50,3 +58,24 @@ python3 -m venv venv && source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+#### 2. Reproduce results
+
+You can now reproduce the results by running
+
+```bash
+make all
+```
+
+This may take a while (30 mins or longer), because you a re-running all scripts sequentially. To reproduce only the *in vitro* study, or only the *in silico study*
+you can run
+
+```bash
+make in_vitro_study
+```
+
+```bash
+make in_silico_study
+```
+
+Alternatively, you are welcome to run each scripy individually, but be aware that some scripts are dependent on the data derived in other scripts.
