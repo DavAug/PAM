@@ -1,5 +1,5 @@
 git+git://github.com/DavAug/chi.git
-git+git://github.com/pints-team/pints.git#egg=pints-latest
+git+git://github.com/pints-team/pints.git
 arviz>=0.11
 jupyter>=1.0.0
 matplotlib>=1.5
