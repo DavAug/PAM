@@ -73,6 +73,7 @@ you can run
 ```bash
 make in_vitro_study
 ```
+or
 
 ```bash
 make in_silico_study
