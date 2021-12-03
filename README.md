@@ -1,10 +1,10 @@
 # PAM
 
-This GitHub repository serves as documentation and reproduction source for the results published in XXX. It contains the raw data, the data derived during the analysis, the model specifications in SBML format and executable scripts in form of Jupyter notebooks to reproduce the results.
+This GitHub repository serves as documentation and reproduction source for the results published in XXX. It contains the raw data, the data derived during the analysis, the model specifications (SBML format) and executable scripts (Jupyter notebooks).
 
 ## Looking at the results
 
-The results are documented by multiple notebooks, which contain interactive figures. To open the notebooks please follow the links below:
+The results are documented by multiple notebooks, which contain interactive figures. To open the notebooks, please follow the links below:
 
 ### In vitro study
 
@@ -33,13 +33,11 @@ The results are documented by multiple notebooks, which contain interactive figu
 
 ## Reproduce results
 
-We prepaired two ways to reproduce our results.
+We prepaired two ways to reproduce our results: a non-programmer and a programmer way.
 
 ### The easy way (no programming knowledge required)
 
-You are welcome to rerun our scripts by clicking on the binder icon in the top right, once you opened the notebook links above. By clicking on the notebook links,
-nbviewer opens the notebooks and provides a link to binder in the top right corner of the website (binder has an icon with three circles). By clicking on the binder
-icon, a server is started for you and all dependencies for our scripts are installed automatically (this may take a couple seconds). Once this is done you can run our scripts in the browser to reproduce the results.
+You are welcome to re-run our scripts by clicking on the binder icon in the top right, once you have opened the notebook links above. By clicking on the notebook links, nbviewer renders the notebooks and provides a link to binder in the top right corner of the website (binder has an icon with three circles). By clicking on the binder icon, a server is started for you, and all dependencies for our scripts are installed automatically (this may take a couple seconds). Once this is done, you can run our scripts in the browser to reproduce the results.
 
 ### The more flexible way (requires some knowledge of programming)
 
