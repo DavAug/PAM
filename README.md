@@ -79,4 +79,4 @@ or
 make in_silico_study
 ```
 
-Alternatively, you are welcome to run each scripy individually, but be aware that some scripts are dependent on the data derived in other scripts.
+Alternatively, you are welcome to run each script individually, but be aware that some scripts are dependent on the data derived in other scripts.
