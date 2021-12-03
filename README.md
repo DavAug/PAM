@@ -29,7 +29,7 @@ The results are documented by multiple notebooks, which contain interactive figu
 11. [Inference of KR model after 15h experiment](https://nbviewer.org/github/DavAug/PAM/blob/main/results/in_silico_study/infer_KR_model_after_15h.ipynb)
 12. [Inference of KR model after 20h experiment](https://nbviewer.org/github/DavAug/PAM/blob/main/results/in_silico_study/infer_KR_model_after_20h.ipynb)
 13. [Inference of KR model after 30h experiment](https://nbviewer.org/github/DavAug/PAM/blob/main/results/in_silico_study/infer_KR_model_after_30h.ipynb)
-14. [Prediction of reduction doses](https://nbviewer.org/github/DavAug/PAM/blob/main/results/in_silico_study/predict_doses.ipynb)
+14. [Prediction of reduction doses](https://nbviewer.org/github/DavAug/PAM/blob/main/results/in_silico_study/predict_dose.ipynb)
 
 ## Reproduce results
 
