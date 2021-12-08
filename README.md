@@ -45,13 +45,20 @@ Alternatively, the GitHub repository can be cloned, and the scripts executed loc
 
 #### 1. Install dependencies
 
-- (optional) Create a virtual environment and activate it
+- 1.1 Install CVODE (myokit uses CVODE to solve ODEs)
 
+For Ubuntu:
 ```bash
-python3 -m venv venv && source venv/bin/activate
+apt-get update && apt-get install libsundials-dev
 ```
+For MacOS:
+ ```bash
+brew update-reset && brew install sundials
+```
+For Windows:
+    No action required. Myokit installs CVODE automatically.
 
-- Install dependencies
+- 1.2 Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
