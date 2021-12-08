@@ -1,11 +1,11 @@
-git+git://github.com/DavAug/chi.git
-git+git://github.com/pints-team/pints.git
 arviz>=0.11
+chi-drm>=0.1
 jupyter>=1.0.0
 matplotlib>=1.5
 myokit>=1.33
 numpy>=1.17
 pandas>=0.24
+pints>=0.4
 plotly>=4.8.1
 seaborn>=0.11
 xarray>=0.19
