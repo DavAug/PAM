@@ -26,23 +26,12 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 1,24.0,Bacterial count,19135535557208.0,,,CFU/ml,ng,h
 1,25.0,Bacterial count,21747602410732.0,,,CFU/ml,ng,h
 1,26.0,Bacterial count,24919074804687.0,,,CFU/ml,ng,h
-1,27.0,Bacterial count,46681191008298.0,,,CFU/ml,ng,h
-1,28.0,Bacterial count,138616141998215.0,,,CFU/ml,ng,h
-1,29.0,Bacterial count,480055233000692.0,,,CFU/ml,ng,h
-1,30.0,Bacterial count,437976754489087.0,,,CFU/ml,ng,h
-1,31.0,Bacterial count,1656004726019937.0,,,CFU/ml,ng,h
-1,32.0,Bacterial count,3703596324001781.0,,,CFU/ml,ng,h
-1,33.0,Bacterial count,1.3057118745995786e+16,,,CFU/ml,ng,h
-1,34.0,Bacterial count,2.2443576885000344e+16,,,CFU/ml,ng,h
-1,35.0,Bacterial count,5.20183751032858e+16,,,CFU/ml,ng,h
-1,36.0,Bacterial count,5.2295123275230776e+16,,,CFU/ml,ng,h
-1,37.0,Bacterial count,1.5209080705263565e+17,,,CFU/ml,ng,h
-1,38.0,Bacterial count,5.785430729947503e+17,,,CFU/ml,ng,h
-1,39.0,Bacterial count,1.9047740477500204e+18,,,CFU/ml,ng,h
-1,40.0,Bacterial count,5.5544974361436646e+17,,,CFU/ml,ng,h
+1,27.0,Bacterial count,46681191008293.0,,,CFU/ml,ng,h
+1,28.0,Bacterial count,138616141998201.0,,,CFU/ml,ng,h
+1,29.0,Bacterial count,480055233000599.0,,,CFU/ml,ng,h
+1,30.0,Bacterial count,437976754489003.0,,,CFU/ml,ng,h
 1,4.0,,,6.0,150.0,,,h
 1,19.0,,,6.0,150.0,,,h
-1,34.0,,,6.0,150.0,,,h
 2,0.0,Bacterial count,259197.0,,,CFU/ml,ng,h
 2,1.0,Bacterial count,781494.0,,,CFU/ml,ng,h
 2,2.0,Bacterial count,1197136.0,,,CFU/ml,ng,h
@@ -69,24 +58,13 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 2,23.0,Bacterial count,5178159702107.0,,,CFU/ml,ng,h
 2,24.0,Bacterial count,713109046325.0,,,CFU/ml,ng,h
 2,25.0,Bacterial count,2353761523636.0,,,CFU/ml,ng,h
-2,26.0,Bacterial count,15335177224698.0,,,CFU/ml,ng,h
-2,27.0,Bacterial count,26885598878604.0,,,CFU/ml,ng,h
-2,28.0,Bacterial count,89449316718516.0,,,CFU/ml,ng,h
-2,29.0,Bacterial count,192764761377049.0,,,CFU/ml,ng,h
-2,30.0,Bacterial count,1571956266956757.0,,,CFU/ml,ng,h
-2,31.0,Bacterial count,353744948911010.0,,,CFU/ml,ng,h
-2,32.0,Bacterial count,1277222391978230.0,,,CFU/ml,ng,h
-2,33.0,Bacterial count,1.5012432602518422e+16,,,CFU/ml,ng,h
-2,34.0,Bacterial count,1.2202165172466666e+16,,,CFU/ml,ng,h
-2,35.0,Bacterial count,2.5204159862787424e+16,,,CFU/ml,ng,h
-2,36.0,Bacterial count,2.1249121710911504e+16,,,CFU/ml,ng,h
-2,37.0,Bacterial count,1.8053522012012816e+16,,,CFU/ml,ng,h
-2,38.0,Bacterial count,1.1992745371789125e+17,,,CFU/ml,ng,h
-2,39.0,Bacterial count,2.1394050395602214e+17,,,CFU/ml,ng,h
-2,40.0,Bacterial count,1.5581516254046643e+17,,,CFU/ml,ng,h
+2,26.0,Bacterial count,15335177224696.0,,,CFU/ml,ng,h
+2,27.0,Bacterial count,26885598878603.0,,,CFU/ml,ng,h
+2,28.0,Bacterial count,89449316718508.0,,,CFU/ml,ng,h
+2,29.0,Bacterial count,192764761377037.0,,,CFU/ml,ng,h
+2,30.0,Bacterial count,1571956266956674.0,,,CFU/ml,ng,h
 2,4.0,,,6.0,300.0,,,h
 2,19.0,,,6.0,300.0,,,h
-2,34.0,,,6.0,300.0,,,h
 3,0.0,Bacterial count,232297.0,,,CFU/ml,ng,h
 3,1.0,Bacterial count,304951.0,,,CFU/ml,ng,h
 3,2.0,Bacterial count,711401.0,,,CFU/ml,ng,h
@@ -113,24 +91,13 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 3,23.0,Bacterial count,773360933184.0,,,CFU/ml,ng,h
 3,24.0,Bacterial count,451548065423.0,,,CFU/ml,ng,h
 3,25.0,Bacterial count,2496731542384.0,,,CFU/ml,ng,h
-3,26.0,Bacterial count,10760733365079.0,,,CFU/ml,ng,h
-3,27.0,Bacterial count,1624215214939.0,,,CFU/ml,ng,h
+3,26.0,Bacterial count,10760733365077.0,,,CFU/ml,ng,h
+3,27.0,Bacterial count,1624215214938.0,,,CFU/ml,ng,h
 3,28.0,Bacterial count,3202622452527.0,,,CFU/ml,ng,h
-3,29.0,Bacterial count,8013665398750.0,,,CFU/ml,ng,h
-3,30.0,Bacterial count,89109212720054.0,,,CFU/ml,ng,h
-3,31.0,Bacterial count,116698867727991.0,,,CFU/ml,ng,h
-3,32.0,Bacterial count,489729498118308.0,,,CFU/ml,ng,h
-3,33.0,Bacterial count,824312196156389.0,,,CFU/ml,ng,h
-3,34.0,Bacterial count,1244147752475688.0,,,CFU/ml,ng,h
-3,35.0,Bacterial count,2515749386795969.0,,,CFU/ml,ng,h
-3,36.0,Bacterial count,3099672788658736.0,,,CFU/ml,ng,h
-3,37.0,Bacterial count,1.0362100429624064e+16,,,CFU/ml,ng,h
-3,38.0,Bacterial count,4065238278352974.0,,,CFU/ml,ng,h
-3,39.0,Bacterial count,1.0533558565097602e+16,,,CFU/ml,ng,h
-3,40.0,Bacterial count,2.6418020267755884e+16,,,CFU/ml,ng,h
+3,29.0,Bacterial count,8013665398748.0,,,CFU/ml,ng,h
+3,30.0,Bacterial count,89109212720030.0,,,CFU/ml,ng,h
 3,4.0,,,6.0,625.0,,,h
 3,19.0,,,6.0,625.0,,,h
-3,34.0,,,6.0,625.0,,,h
 4,0.0,Bacterial count,849225.0,,,CFU/ml,ng,h
 4,1.0,Bacterial count,73487.0,,,CFU/ml,ng,h
 4,2.0,Bacterial count,1272897.0,,,CFU/ml,ng,h
@@ -160,21 +127,10 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 4,26.0,Bacterial count,249719715702.0,,,CFU/ml,ng,h
 4,27.0,Bacterial count,99111090453.0,,,CFU/ml,ng,h
 4,28.0,Bacterial count,206165877722.0,,,CFU/ml,ng,h
-4,29.0,Bacterial count,1043320516677.0,,,CFU/ml,ng,h
-4,30.0,Bacterial count,596120381053.0,,,CFU/ml,ng,h
-4,31.0,Bacterial count,1946868815251.0,,,CFU/ml,ng,h
-4,32.0,Bacterial count,9556117432639.0,,,CFU/ml,ng,h
-4,33.0,Bacterial count,16697826831732.0,,,CFU/ml,ng,h
-4,34.0,Bacterial count,25609597376624.0,,,CFU/ml,ng,h
-4,35.0,Bacterial count,65519972221109.0,,,CFU/ml,ng,h
-4,36.0,Bacterial count,7515770511644.0,,,CFU/ml,ng,h
-4,37.0,Bacterial count,134727272811649.0,,,CFU/ml,ng,h
-4,38.0,Bacterial count,39414240051699.0,,,CFU/ml,ng,h
-4,39.0,Bacterial count,27730619653146.0,,,CFU/ml,ng,h
-4,40.0,Bacterial count,124416419396811.0,,,CFU/ml,ng,h
+4,29.0,Bacterial count,1043320516678.0,,,CFU/ml,ng,h
+4,30.0,Bacterial count,596120381054.0,,,CFU/ml,ng,h
 4,4.0,,,6.0,1250.0,,,h
 4,19.0,,,6.0,1250.0,,,h
-4,34.0,,,6.0,1250.0,,,h
 5,0.0,Bacterial count,128950.0,,,CFU/ml,ng,h
 5,1.0,Bacterial count,389075.0,,,CFU/ml,ng,h
 5,2.0,Bacterial count,3044184.0,,,CFU/ml,ng,h
@@ -206,19 +162,8 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 5,28.0,Bacterial count,243322494.0,,,CFU/ml,ng,h
 5,29.0,Bacterial count,66002711.0,,,CFU/ml,ng,h
 5,30.0,Bacterial count,484770316.0,,,CFU/ml,ng,h
-5,31.0,Bacterial count,1532561259.0,,,CFU/ml,ng,h
-5,32.0,Bacterial count,1008403184.0,,,CFU/ml,ng,h
-5,33.0,Bacterial count,12257016871.0,,,CFU/ml,ng,h
-5,34.0,Bacterial count,15047852498.0,,,CFU/ml,ng,h
-5,35.0,Bacterial count,35630705187.0,,,CFU/ml,ng,h
-5,36.0,Bacterial count,28344753467.0,,,CFU/ml,ng,h
-5,37.0,Bacterial count,5076742584.0,,,CFU/ml,ng,h
-5,38.0,Bacterial count,3789594841.0,,,CFU/ml,ng,h
-5,39.0,Bacterial count,3711828559.0,,,CFU/ml,ng,h
-5,40.0,Bacterial count,4658730801.0,,,CFU/ml,ng,h
 5,4.0,,,6.0,2500.0,,,h
 5,19.0,,,6.0,2500.0,,,h
-5,34.0,,,6.0,2500.0,,,h
 6,0.0,Bacterial count,116085.0,,,CFU/ml,ng,h
 6,1.0,Bacterial count,173994.0,,,CFU/ml,ng,h
 6,2.0,Bacterial count,798335.0,,,CFU/ml,ng,h
@@ -250,19 +195,8 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 6,28.0,Bacterial count,33942.0,,,CFU/ml,ng,h
 6,29.0,Bacterial count,106466.0,,,CFU/ml,ng,h
 6,30.0,Bacterial count,97473.0,,,CFU/ml,ng,h
-6,31.0,Bacterial count,511555.0,,,CFU/ml,ng,h
-6,32.0,Bacterial count,1048972.0,,,CFU/ml,ng,h
-6,33.0,Bacterial count,1872487.0,,,CFU/ml,ng,h
-6,34.0,Bacterial count,2399516.0,,,CFU/ml,ng,h
-6,35.0,Bacterial count,3282874.0,,,CFU/ml,ng,h
-6,36.0,Bacterial count,1263509.0,,,CFU/ml,ng,h
-6,37.0,Bacterial count,626138.0,,,CFU/ml,ng,h
-6,38.0,Bacterial count,1111666.0,,,CFU/ml,ng,h
-6,39.0,Bacterial count,255384.0,,,CFU/ml,ng,h
-6,40.0,Bacterial count,734921.0,,,CFU/ml,ng,h
 6,4.0,,,6.0,5000.0,,,h
 6,19.0,,,6.0,5000.0,,,h
-6,34.0,,,6.0,5000.0,,,h
 7,0.0,Bacterial count,425328.0,,,CFU/ml,ng,h
 7,1.0,Bacterial count,1524800.0,,,CFU/ml,ng,h
 7,2.0,Bacterial count,159027.0,,,CFU/ml,ng,h
@@ -294,16 +228,5 @@ ID,Time,Biomarker,Measurement,Duration,Dose,Biomarker unit,Dose unit,Time unit
 7,28.0,Bacterial count,3002.0,,,CFU/ml,ng,h
 7,29.0,Bacterial count,2614.0,,,CFU/ml,ng,h
 7,30.0,Bacterial count,4597.0,,,CFU/ml,ng,h
-7,31.0,Bacterial count,8763.0,,,CFU/ml,ng,h
-7,32.0,Bacterial count,30003.0,,,CFU/ml,ng,h
-7,33.0,Bacterial count,30894.0,,,CFU/ml,ng,h
-7,34.0,Bacterial count,158513.0,,,CFU/ml,ng,h
-7,35.0,Bacterial count,35640.0,,,CFU/ml,ng,h
-7,36.0,Bacterial count,23453.0,,,CFU/ml,ng,h
-7,37.0,Bacterial count,8800.0,,,CFU/ml,ng,h
-7,38.0,Bacterial count,11014.0,,,CFU/ml,ng,h
-7,39.0,Bacterial count,3791.0,,,CFU/ml,ng,h
-7,40.0,Bacterial count,1030.0,,,CFU/ml,ng,h
 7,4.0,,,6.0,10000.0,,,h
 7,19.0,,,6.0,10000.0,,,h
-7,34.0,,,6.0,10000.0,,,h
