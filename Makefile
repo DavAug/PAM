@@ -72,5 +72,4 @@ clean_figures:
 	rm -f $(PWD)/results/in_vitro_study/in_vitro_data.pdf
 	rm -f $(PWD)/results/in_vitro_study/model_weights_in_vitro_study.pdf
 	rm -f $(PWD)/results/in_vitro_study/MLE_predictions.pdf
-	rm -f $(PWD)/results/in_silico_study/1log_reduction_dose.pdf
-	rm -f $(PWD)/results/in_silico_study/6log_reduction_dose.pdf
+	rm -f $(PWD)/results/in_silico_study/log_reduction_doses.pdf
