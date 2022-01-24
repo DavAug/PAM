@@ -72,7 +72,7 @@ You can now reproduce the results by running
 make all
 ```
 
-This may take a while (30 mins or longer), because you a re-running all scripts sequentially. To reproduce only the *in vitro* study, or only the *in silico study*
+This may take a while (30 mins or longer), because you are re-running all scripts sequentially. To reproduce only the *in vitro* study, or only the *in silico study*
 you can run
 
 ```bash
