@@ -33,7 +33,7 @@ The results are documented by multiple notebooks, which contain interactive figu
 
 ## Reproduce results
 
-We prepaired two ways to reproduce our results: a non-programmer and a programmer way.
+We prepared two ways to reproduce our results: a non-programmer and a programmer way.
 
 ### The easy way (no programming knowledge required)
 
