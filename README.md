@@ -41,7 +41,7 @@ You are welcome to re-run our scripts by clicking on the binder icon in the top 
 
 ### The more flexible way (requires some knowledge of programming)
 
-Alternatively, the GitHub repository can be cloned, and the scripts executed locally. For ease of execution, we prepared a `Makefile` that executes the scripts in the correct order. Please find a step-by-step instruction how the dependencies can be installed, once you have cloned the repostory.
+Alternatively, the GitHub repository can be cloned, and the scripts executed locally. For ease of execution, we prepared a `Makefile` that executes the scripts in the correct order. Please find a step-by-step instruction how the dependencies can be installed and the results be reproduced, once you have cloned the repostory.
 
 #### 1. Install dependencies
 
