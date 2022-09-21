@@ -1,6 +1,6 @@
 # PAM
 
-This GitHub repository serves as documentation and reproduction source for the results published in XXX. It contains the raw data, the data derived during the analysis, the model specifications (SBML format) and executable scripts (Jupyter notebooks).
+This GitHub repository serves as documentation and reproduction source for the results published on [bioRxiv](https://doi.org/10.1101/2022.03.19.483454). It contains the raw data, the data derived during the analysis, the model specifications (SBML format) and executable scripts (Jupyter notebooks).
 
 ## Looking at the results
 
